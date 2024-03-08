@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Cart.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-black">
+            <div class="header-shopnow">
+                <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+                <div><a style="color: white;" href="">Shop now</a></div>
+            </div>
+            <div>
+                <select style="color: white; border: none;text-align: center;" name="language" id="language">
+                    <option value="English">English</option>
+                    <option value="Vietnamese">Vietnamese</option>
+                    <option value="Japanese">Japanese</option>
+                </select>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div style="font-size: 24px;font-weight: 700;">Exclusive</div>
+            <div style="display: flex;gap: 48px;">
+                <div>Home</div>
+                <div>Contact</div>
+                <div>About</div>
+                <div>Sign Up</div>
+            </div>
+            <div style="display: flex;align-items: center;gap: 24px ;">
+                <div class="looking"><input style="border: none;" placeholder="What are you looking for? "
+                        type="search"><i id="glass" class="fa-solid fa-magnifying-glass"></i></div>
+                <div style="display: flex; gap: 24px
+                ;"> <i class="fa-regular fa-heart"></i>
+                    <div style="display: flex;height: 16px;width: 16px;background-color: #DB4444;border-radius: 100%;
+position: absolute;z-index: 2;align-items: center;justify-content: center;color: #F5F5F5;top: 91px;right: 185px;">4
+                    </div>
+                    <i class="fa-regular fa-cart-shopping"></i>
+                    <div style="display: flex;height: 16px;width: 16px;background-color: #DB4444;border-radius: 100%;
+position: absolute;z-index: 2;align-items: center;justify-content: center;color: #F5F5F5;top: 91px;right: 145px;">2
+                    </div><i class="fa-light fa-user"></i></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div style="margin: 80px 0 80px 130px"><span style="color: gray;">Home /</span><span> Cart</span></div>
+    <div style="    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;margin-bottom: 24px;">
+        <div style="    gap: 284px;
+        width: 1170px;
+        height: 72px;
+        background-color: #0000000D;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div>Product</div>
+            <div>Price</div>
+            <div>Quantity</div>
+            <div>Subtotal</div>
+        </div>
+        <div style=" gap: 284px;
+        width: 1170px;
+        height: 72px;
+        background-color: #0000000D;
+        border-radius: 4px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;">
+            <div style="margin-left: 40px;
+            margin-right: -66px;
+            display: flex;
+            align-items: center;">
+                <div><img style="width: 50px;height: 45px;" src="images/monitor.png" alt=""></div>
+                <div> LCD Monitor</div>
+                <i class="fa-duotone fa-circle-xmark" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ff0000; --fa-secondary-opacity: 1;
+                    position: absolute;z-index: 2;top: 450px;left: 185px;"></i>
+            </div>
+            <div>$650</div>
+            <div> <input value="0" style="width: 72px;height: 44px;border-radius: 4px;text-align: center;"
+                    type="number"></div>
+            <div>$650</div>
+        </div>
+        <div style="     gap: 284px;
+        width: 1170px;
+        height: 72px;
+        background-color: #0000000D;
+        border-radius: 4px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;">
+            <div style="margin-left: 40px;
+            margin-right: -66px;
+            display: flex;
+            align-items: center;">
+                <div><img style="width: 50px;height: 45px;" src="images/gamepad.png" alt=""></div>
+                <div>H1 Gamepad</div>
+            </div>
+            <div>$550</div>
+            <div> <input value="0" style="width: 72px;height: 44px;border-radius: 4px;text-align: center;"
+                    type="number"></div>
+            <div>$1100</div>
+        </div>
+    </div>
+
+    <div style="gap: 757px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;">
+        <div><button style="    display: flex;
+            border: 1px solid black;
+            width: 218px;
+            height: 56px;
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;">Return
+                To Shop</button></div>
+        <div><button style="    display: flex;
+            border: 1px solid black;
+            width: 218px;
+            height: 56px;
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;">Update Cart</button></div>
+    </div>
+    <div style="gap: 210px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 140px;">
+        <div style="margin-left: 135px;
+        gap: 16px;
+        display: flex;
+        justify-content: flex-start;">
+            <div> <input style="width: 300px;height: 56px;border-radius: 4px;" type="text" placeholder=" Coupon Code">
+            </div>
+            <div><button style="    display: flex;
+   background-color: #DB4444;
+   color: #F5F5F5;
+    width: 211px;
+    height: 56px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;">Apply Coupon</button></div>
+        </div>
+
+        <div style="    border-radius: 4px;
+        border: 1.5px solid black;
+        display: flex;
+        width: 470px;
+        height: 324px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;">
+
+            <p style="    font-size: 20px;
+            font-weight: 500;
+            margin-left: -330px;">Cart Total</p>
+            <div style="display: flex; gap: 307px;">
+                <p>Subtotal:</p>
+                <p>$1750</p>
+            </div>
+            <div style="width: 405px;">
+                <hr>
+            </div>
+
+            <div style="display: flex; gap: 314px;">
+                <p>Shipping:</p>
+                <p>Free</p>
+            </div>
+            <div style="width: 405px;">
+                <hr>
+            </div>
+            <div style="display: flex; gap: 329px;">
+                <p>Total:</p>
+                <p>$1750</p>
+            </div>
+
+
+            <div><button style="    display: flex;
+   background-color: #DB4444;
+   color: #F5F5F5;
+    width: 211px;
+    height: 56px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;">Procees to checkout</button></div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div style="padding: 110px;
+    color: white;
+    background-color: #000000;
+    display: flex;
+    height: 440px;
+    gap: 87px;
+    justify-content: center;
+    align-items: flex-start;">
+            <div style="gap: 24px;
+        display: flex;
+        width: 217px;
+        flex-direction: column;">
+                <p style="font-size: 24px;font-weight: 700;">Exclusive</p>
+                <p style="font-size: 20px;font-weight: 500;">Subscribe</p>
+                <p style="font-size: 16px;">Get 10% off your first order</p>
+                <div style="text-align: center;align-items: center;display: flex;border: rgba(250, 250, 250, 1) solid 1.5px;
+                 width: 217px;height: 48px;border-radius: 4px;
+justify-content: center">
+                    <input style="border: none;width: 130px;" type="email" placeholder="Enter your email"><i
+                        class="fa-light fa-paper-plane-top"></i>
+                </div>
+            </div>
+            <div style="gap: 24px;
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;">
+                <p style="font-size: 20px;font-weight: 500;">Support</p>
+                <p style="font-size: 16px;">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+                <p style="font-size: 16px;">exclusive@gmail.com</p>
+                <p style="font-size: 16px;">+88015-88888-9999</p>
+            </div>
+            <div style="gap: 24px;
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;">
+                <p style="font-size: 20px;font-weight: 500;">Account</p>
+                <p style="font-size: 16px;">My Account</p>
+                <p style="font-size: 16px;">Login / Register</p>
+                <p style="font-size: 16px;">Cart</p>
+                <p style="font-size: 16px;">Wishlist</p>
+                <p style="font-size: 16px;">Shop</p>
+            </div>
+            <div style="gap: 24px;
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;">
+                <p style="font-size: 20px;font-weight: 500;">Quick Link</p>
+                <p style="font-size: 16px;">Privacy Policy</p>
+                <p style="font-size: 16px;">Terms Of Use</p>
+                <p style="font-size: 16px;">FAQ</p>
+                <p style="font-size: 16px;">Contact</p>
+            </div>
+            <div><img src="images/Frame 742.png" alt=""></div>
+        </div>
+        <div style="height: 40px; background-color: #000000;color: rgba(255, 255, 255, 1);text-align: center;">
+            Copyright Rimel 2022. All right reserved
+        </div>
+    </footer>

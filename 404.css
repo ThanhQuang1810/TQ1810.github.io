@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    : 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: KyivTypeSans;
+    src: url(./fonts/KyivTypeSans.otf);
+}
+
+.background {
+
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url('pexels-lumn-235309\ 2.png')
+}
+
+
+.logo {
+    margin-top: 56px;
+    margin-left: 75px;
+    width: 197px;
+    height: 83.8px;
+}
+
+.logo-menu {
+    justify-content: space-between;
+    gap: 438px;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+
+    margin-right: 155px;
+    margin-top: 79px;
+    line-height: 24.38px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F5F5F5;
+    display: flex;
+    gap: 57px;
+}
+
+.swg {
+    font-family: KyivTypeSans;
+    text-align: center;
+    font-size: 500px;
+    font-weight: 500;
+    height: 539px;
+    color: #F5F5F5;
+
+}
+
+.Woops {
+    margin-top: -20px;
+    color: #F5F5F5;
+    font-family: KyivTypeSans;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 500;
+    list-style: 97.11px;
+}

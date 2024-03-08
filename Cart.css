@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    : 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.header-black {
+    gap: 180px;
+
+    align-items: center;
+    display: flex;
+    color: #FAFAFA;
+    height: 48px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.header-shopnow {
+    gap: 8px;
+    margin-left: 315px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.looking {
+    display: flex;
+    width: 243px;
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.header-menu {
+
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}

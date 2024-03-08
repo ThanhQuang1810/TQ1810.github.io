@@ -1,0 +1,25 @@
+.border {
+    border-radius: 5px;
+    overflow: auto;
+    border: 5px solid black;
+    height: 150px;
+}
+
+.con1 {
+
+    border-right: 5px solid;
+    padding-left: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+.con2 {
+    box-sizing: border-box;
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: auto;
+}

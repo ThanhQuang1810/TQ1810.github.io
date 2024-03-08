@@ -1,0 +1,309 @@
+/* .p {
+    font-size: 40px;
+    text-align: center;
+
+    background-color: rgba(188, 254, 254, 0.919);
+    width: 400px;
+    border-radius: 15px;
+}
+
+.form {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 400px;
+}
+
+.form-left {
+    float: left;
+    width: 50%;
+}
+
+.form-right {
+    float: right;
+    width: 50%;
+}
+
+input {
+    border: none;
+    background-color: #e5e5e570;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Cancel:hover {
+    background-color: rgb(133, 162, 187);
+
+}
+
+.Cancel {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    width: 70px;
+    margin-right: 4px;
+    float: right;
+    border-radius: 15px;
+    border: blue 1px solid;
+    color: rgb(60, 0, 255);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Save {
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    border: blue;
+    background-color: blue;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 70px;
+    float: right;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.Save:hover {
+    background-color: rgb(193, 193, 193);
+}
+
+
+#email {
+    width: 370px;
+}
+
+#Address {
+    width: 370px;
+} */
+/* body {
+
+    background-color: aquamarine;
+    justify-content: center;
+    display: flex;
+}
+
+.form {
+    border-radius: 15px;
+    padding: 0px 47px 0px 47px;
+    flex-direction: column;
+    display: flex;
+}
+
+.email,
+.password {
+    padding: 10px 10px 10px 10px;
+    border: solid 0.5px rgba(255, 255, 255, 0.616);
+    border-radius: 7px;
+}
+
+.Create {
+    border: rgb(0 143 10 / 74%);
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    background-color: rgb(0 143 10 / 74%);
+    border-radius: 15px;
+    width: 300px;
+    height: 70px;
+    margin: 20px 40px 20px 40px;
+    /* trên - phải - dưới - trái */
+/* }
+
+.Create:hover {
+    background-color: blue;
+} */
+
+/* .form-left {
+    padding-bottom: 15px;
+    float: left;
+    width: 50%;
+}
+
+.form-right {
+    padding-bottom: 15px;
+    float: right;
+    width: 50%
+}
+
+.body {
+
+    background-color: rgb(222, 226, 230);
+    justify-content: center;
+    display: flex;
+}
+
+
+.button {
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: blue;
+    width: 150px;
+    height: 60px;
+}
+
+.optional {
+    color: gray;
+}
+
+.blue {
+    color: blue;
+}
+
+.button:hover {
+    background-color: rgb(187, 255, 0);
+}
+
+.input {
+    margin-right: 20px;
+    width: 300px;
+    border: solid 0.005px gray;
+    padding: 10px 30px 10px 30px;
+}
+
+.select {
+    height: 100%;
+    color: gray;
+    margin-right: 20px;
+    width: 362px;
+    border: solid 0.005px gray;
+    padding: 9px 30px 10px 30px;
+} */
+/* .tr {
+    text-align: justify;
+    background-color: black;
+    color: white;
+}
+
+table {
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 400px;
+    width: 900px;
+    border-spacing: 0;
+}
+
+.tr1 {
+    color: gray;
+}
+
+.tr2 {
+    background-color: rgb(222, 222, 222);
+} */
+/* table {
+    width: 1000px;
+    height: 300px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.gray {
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 200, 200);
+}
+
+.white {
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.inactive {
+    border: gray;
+    color: gray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+} */
+/* li {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 38px;
+    padding-right: 15px;
+    display: block;
+    float: left;
+}
+
+form {
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    align-content: center;
+    display: flex;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+span {
+    margin-right: 40px;
+    margin-left: 18px;
+} */
+
+
+/* .view,.edit{ border: 1px solid black ;background-color: white;} */
+/* button {
+
+    height: 30px;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
+}
+
+.Main {
+    text-align: center;
+}
+
+.Featured-list {
+    background-color: rgb(191, 228, 228);
+    gap: 10px;
+    display: flex;
+}
+
+.Featured-bottom {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+h3 {
+    justify-content: center;
+    background-color: rgba(77, 76, 76, 0.682);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.lorem {
+    background-color: white;
+    margin-top: -20px;
+    ;
+} */
+
+.sign-up {
+    height: 25px;
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: solid red 0.5px;
+    background-color: white;
+    color: red;
+}
+
+html {
+    font-family: "Rubik", sans-serif;
+}

@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    : 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: KyivTypeSans;
+    src: url(./fonts/KyivTypeSans.otf);
+}
+
+.background {
+
+    height: 7162px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url('pexels-lumn-235309\ 2.png')
+}
+
+
+.logo {
+    margin-top: 56px;
+    margin-left: 75px;
+    width: 197px;
+    height: 83.8px;
+}
+
+.logo-menu {
+    justify-content: space-between;
+    gap: 438px;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+
+    margin-right: 155px;
+    margin-top: 79px;
+    line-height: 24.38px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F5F5F5;
+    display: flex;
+    gap: 57px;
+}
+
+.solid-wood {
+    align-items: center;
+    display: flex;
+    margin-top: 64.2px;
+    border-bottom-left-radius: 43px;
+    border-top-left-radius: 43px;
+    height: 714px;
+    width: 1600px;
+    background-color: #1E0C06;
+}
+
+.h1 {
+    color: #F5F5F5;
+    ;
+    font-size: 90px;
+}
+
+.Order {
+    font-size: 30px;
+    border-radius: 42px;
+    width: 195px;
+    height: 55px;
+    background-color: #728BAD;
+    color: #F5F5F5;
+}
+
+.img-solid {
+    border-radius: 42px;
+    width: 205px;
+    height: 205px;
+}
+
+.the-work {
+    margin: 400px 0px 120px 245px;
+    color: #F5F5F5;
+    font-size: 90px;
+}
+
+.about-img {
+    position: relative;
+}
+
+.about-img-large {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.about-img-small {
+    position: absolute;
+    top: -132px;
+    right: -73px;
+    z-index: 10;
+}
